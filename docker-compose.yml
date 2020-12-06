@@ -1,0 +1,7 @@
+version: "2"
+services:
+  kumo-grepper:
+    image: audio-server
+    ports:
+      - 5001:5001
+    container_name: audio-server
