@@ -1,6 +1,6 @@
 # Speech recognition simple web app
 
-Speech-recognition application build with Flask, using GCP infrastracture: Google Speech to text API, Google bucket storage, Google Cloud Run
+Speech-recognition application built with Flask, using GCP infrastracture: Google Speech to text API, Google bucket storage, Google Cloud Run
 
 # Deploy to cloud
 ```
