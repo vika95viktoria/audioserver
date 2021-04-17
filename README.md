@@ -4,6 +4,6 @@ Speech-recognition application built with Flask, using GCP infrastracture: Googl
 
 # Deploy to cloud
 ```
-gcloud builds submit --tag gcr.io/{projectid}/audio-server  --timeout=9000s
-gcloud run deploy audio-server --image gcr.io/{projectid}/audio-server --platform managed --memory 1Gi
+gcloud builds submit --tag gcr.io/{projectid}/audio-server 
+gcloud run deploy audio-server --image gcr.io/{projectid}/audio-server --platform managed --memory 1Gi --timeout=3600s
 ```
